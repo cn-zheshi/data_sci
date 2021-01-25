@@ -69,7 +69,6 @@ def pretreat(resoucedir, targetdir, begin_time, end_time):
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     # weibo
     pretreat("../scraper/store/weibo/", "./store/weibo/",
              datetime.date(2019, 12, 31), datetime.date(2020, 1, 19))
@@ -95,23 +94,3 @@ if __name__ == "__main__":
     # south
     pretreat("../scraper/store/south/", "./store/south/",
              datetime.date(2019, 12, 31), datetime.date(2020, 6, 1))
-=======
-    pretreatment("../scraper/store/weibo/", "./store/weibo/",
-                 datetime.date(2019, 12, 31), datetime.date(2020, 1, 22))
-    pretreatment("../scraper/store/weibo/", "./store/weibo/",
-                 datetime.date(2020, 1, 23), datetime.date(2020, 2, 7))
-    pretreatment("../scraper/store/weibo/", "./store/weibo/",
-                 datetime.date(2020, 2, 8), datetime.date(2020, 3, 9))
-    pretreatment("../scraper/store/weibo/", "./store/weibo/",
-                 datetime.date(2020, 3, 10), datetime.date(2020, 6, 1))
-    pretreatment("../scraper/store/bilibilidate/", "./store/bilibilidate/",
-                 datetime.date(2020, 2, 9), datetime.date(2020, 3, 9))
-    pretreatment("../scraper/store/bilibilidate/", "./store/bilibilidate/",
-                 datetime.date(2020, 3, 10), datetime.date(2020, 6, 29))
-    # pretreater("../scraper/store/bilibilidate/", "./store/bilibilidate/",
-    #              datetime.date(2020, 6, 16), datetime.date(2020, 9, 30))
-    # pretreater("../scraper/store/bilibilidate/", "./store/bilibilidate/",
-    #              datetime.date(2020, 10, 1), datetime.date(2021, 1, 20))
-    # pretreater("../scraper/store/south/", "./store/south/",
-    #              datetime.date(2019, 12, 31), datetime.date(2020, 6, 15))
->>>>>>> tmp
